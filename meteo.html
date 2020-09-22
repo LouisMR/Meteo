@@ -1,0 +1,14 @@
+<div id="content" class="content">
+    <main>
+        <h1>{{$route.params.ville}}</h1>
+        <img :src="representation">
+        <h3>Température: {{temperature}} degrées<br><br>Ressenti: {{resenti}} degrées</h3><br><br>
+        <p><strong>Description: </strong>{{description}}</p>
+        <p><strong>Force du vent:</strong> {{forceVent}} km/h <strong>Direction du vent: </strong>{{directionVent}}</p>
+        <p v-if="b"><strong>Pluie: </strong>{{pluie}}</p>
+        <p v-if="b"><strong>Neige: </strong>{{neige}}</p>
+        <p><strong>Fuseau horaire: </strong>{{fuseauHoraire}}</p>
+        <p><strong>Levé du soleil: </strong>{{soleilLeve}} <strong>Coucher du soleil: </strong>{{soleilCoucher}}</p>
+        <router-link to="/" tag="button">Retour</router-link>
+    </main>
+</div>

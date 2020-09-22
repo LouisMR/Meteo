@@ -1,0 +1,109 @@
+body {
+    background-color: #3EADCF;
+    background-image: linear-gradient(#3EADCF, #ABE9CD);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#app {
+    text-align: center;
+}
+
+.accueil {
+    background-color: rgba(255,255,255,0.6);
+    display: block;
+    box-shadow: 5px 10px grey;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    left: 23%;
+}
+
+.accueil main {
+    margin-top: 100px;
+}
+
+
+.content {
+    background-color: rgba(255,255,255,0.6);
+    display: block;
+    box-shadow: 5px 10px grey;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 120px;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    left: 23%;
+}
+
+img {
+    float: left;
+    margin-left: 155px;
+}
+
+h3 {
+    float: left;
+    margin-right: 150px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+    body {
+        background-color: #3EADCF;
+        background-image: linear-gradient(#3EADCF, #ABE9CD);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #app {
+        text-align: center;
+    }
+    
+    .accueil {
+        background-color: rgba(255,255,255,0.6);
+        display: block;
+        box-shadow: 5px 10px grey;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        left: 23%;
+    }
+    
+    .accueil main {
+        margin-top: 100px;
+    }
+    
+    
+    .content {
+        background-color: rgba(255,255,255,0.6);
+        display: block;
+        box-shadow: 5px 10px grey;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 120px;
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+        left: 23%;
+    }
+    
+    img {
+        float: left;
+        margin-left: 40px;
+    }
+    
+    h3 {
+        float: left;
+        margin-left: 36px;
+    }
+}
